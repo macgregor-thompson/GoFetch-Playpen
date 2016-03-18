@@ -1,0 +1,17 @@
+{
+  "generator-assemble": {
+    "projectName": "GreenleafWoods",
+    "projectDesc": "RRent an office in Portsmouth, New Hampshire.",
+    "authorLogin": "mhthompson86",
+    "installPlugin": true,
+    "author": {
+      "name": "mhthompson86",
+      "login": "assemble",
+      "email": "mthompson@instant-tech.com"
+    },
+    "plugins": [
+      "assemble-contrib-permalinks",
+      "assemble-contrib-sitemap"
+    ]
+  }
+}
