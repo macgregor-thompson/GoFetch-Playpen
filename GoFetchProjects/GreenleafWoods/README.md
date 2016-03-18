@@ -1,6 +1,6 @@
 # greenleafwoods
 
-> RRent an office in Portsmouth, New Hampshire..
+> Rent an office in Portsmouth, New Hampshire.
 
 ## [Assemble](http://assemble.io/)
 
