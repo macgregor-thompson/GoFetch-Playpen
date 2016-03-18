@@ -1,0 +1,527 @@
+
+/* Global Settings
+======================================================================================================================================================*/
+
+body {
+    background-color: #fde8d7;
+    height: 1000px;
+
+}
+
+.mobile {
+    margin-top: -30px;
+}
+
+
+
+.bottom-space-20 {
+    margin-bottom: 20px;
+}
+
+.bottom-space-50 {
+    margin-bottom: 50px;
+}
+
+
+.img-center{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.top-space-100 {
+    margin-top: 100px;
+}
+.top-space-50 {
+    margin-top: 50px;
+}
+
+.top-space-20 {
+    margin-top: 25px;
+}
+
+.top-space-25 {
+    margin-top: 25px;
+}
+
+.gofetch-modal {
+    color: #000;
+    background-color: transparent;
+}
+
+/* Navbar
+==========================================================*/
+.nav-container {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+
+.mobile-nav-menu {
+    color: #ffffff;
+    padding: 6px 0 0 25px;
+
+}
+
+.mobile-nav-menu>a {
+    color: #ffffff;
+}
+
+.white {
+    color: #ffffff;
+}
+
+.img-space-left {
+    margin-left: 10px;
+}
+
+.fonticon {
+    font-size: 40px;
+    vertical-align: middle;
+    color: #fa0808;
+    text-shadow: 0 1px 1px #ffffff;
+
+}
+
+
+/* Navbar END
+==========================================================*/
+
+
+/*==============================================================================================================================*/
+
+
+/* Footer
+==========================================================*/
+
+.grey {
+    color: #9d9d9d;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.circle-logo {
+    background-color: #fa0808;
+    padding-top: 4px;
+    border: solid 1px #ffffff;
+}
+
+
+
+/* Footer END
+==========================================================*/
+
+/*==============================================================================================================================*/
+
+
+
+/* Social Buttons
+==========================================================*/
+
+.social-list {
+    margin-right: 25px;
+    list-style-type: none;
+}
+
+.static {
+    position: fixed;
+}
+
+.social-div {
+    right: 0;
+    top: 100px;
+    position: fixed;
+    z-index: 999;
+}
+
+.contact-icon span{
+    color: #fa0808;
+    font-size: 64px;
+    line-height: 39px;
+    display: inline-block;
+    background-color: #fff;
+    text-transform: uppercase;
+    padding: 0 0;
+    margin-top: 16px;
+    margin-left: 3px;
+
+}
+
+.logo-btn {
+    background-color: #fa0808;
+    width: 55px;
+    display: block;
+    margin: 5px;
+    border: solid 1px #000;
+
+}
+
+/* Social Buttons END
+=============================================================*/
+
+
+
+
+
+
+/* Global Settings END
+===================================================================================================================================*/
+
+
+/*==============================================================================================================================*/
+
+/* Home Page
+==============================================*/
+
+.home-h1 {
+    font-size: 3.5em;
+}
+
+#home-sm-md-lg {
+    background: url('../img/fripp1-cropp.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 700px;
+}
+
+#services-sm-md-lg {
+    background: url('../img/marina-crop-bottom.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 700px;
+}
+
+#portfolio-sm-md-lg {
+    background: url('../img/fripp-grass-crop.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 700px;
+}
+
+
+#about-sm-md-lg {
+    background: url('../img/sixteen-green-crop.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 700px;
+}
+
+
+
+
+.logo {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 100px;
+
+
+}
+
+
+.gofetch-jumbo {
+    color: #ffffff;
+
+
+}
+
+.section-h1 {
+    text-shadow: 0 2px 4px #000;
+    margin-top: 100px;
+    color: #fa0808;
+
+
+}
+
+.gofetch-btn-lg {
+    background-color: #fa0808;
+    color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    text-shadow: 0 1px 2px #333333;
+}
+
+.seo-lg {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 5px 1px #fff;
+    border: solid 1px #009dea;
+    padding:5px;
+    height: 50px;
+
+}
+
+
+.gofetch-container {
+    color: #fa0808;
+    margin-bottom: 20px;
+    text-shadow: 0 1px 2px #ffffff;
+
+}
+
+
+.gofetch-container-responsive {
+    background-color: #fa0808;
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-shadow: 0 1px 2px #333;
+
+}
+
+.jumbotron.responsive-jumbo {
+    background-color: #fa0808;
+    padding: 10px;
+
+}
+
+
+/* Home Page END
+==============================================*/
+
+/* Home Page Mobile -xs-
+=============================================*/
+
+
+.logo-xs {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    z-index: 999;
+
+}
+
+
+
+.gofetch-jumbo-xs {
+    background-color: #009dea;
+    color: #ffffff;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 20px;
+    border: solid 2px #fa0808;
+
+}
+
+
+.gofetch-container-fluid {
+    background-color: #009dea;
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-shadow: 0 1px 2px #333333;
+
+}
+
+.section-h3 {
+    text-shadow: 0 2px 1px #000;
+}
+
+.gofetch-btn-xs {
+    background-color: #fa0808;
+    color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    text-shadow: 0 1px 2px #333333;
+}
+.btn-default.active, .btn-default.focus, .btn-default:active, .btn-default:focus, .btn-default:hover, .open>.dropdown-toggle.btn-default {
+    background-color: #ffffff;
+    color: #fa0808;
+    border-color: #adadad;
+    text-shadow: 0 0 0 #333333;
+}
+
+
+.hidden-jumbo-xs {
+    height:100px;
+}
+
+.seo {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    border: solid 1px #000;
+    padding:2px;
+
+
+}
+.seo-btn {
+    background-color: #fff;
+    border: solid 1px #000;
+}
+
+
+.logo-img {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #009dea;
+    border: solid 2px #fa0808;
+    margin-bottom: 20px;
+    padding-top: 2px;
+
+}
+
+.logo-home {
+    background-color: #009dea;
+    border: solid 1px #ffffff;
+}
+
+/* Home Page Mobile -xs-  END
+==============================================*/
+
+/*==============================================================================================================================*/
+
+/* Services Page
+==============================================*/
+
+
+.services-h1 {
+    margin-top: 130px;
+    font-size: 3.5em;
+}
+
+
+.reasons-box {
+    background-color: #fa0808;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.next-box {
+    margin-top: 100px;
+}
+
+.next-box-1 {
+    margin-top: 300px;
+}
+.reasons-box-xs {
+    background-color: #fa0808;
+    padding: 10px;
+    border-radius: 25px;
+
+}
+
+.steps-box{
+    background-color: #009dea;
+    margin-top: 10px;
+    padding: 30px;
+    border-radius: 50%;
+    height: 300px;
+}
+
+.last-box {
+    padding: 20px 50px;
+}
+
+
+.h3-top-2 {
+    padding-top: 20px;
+}
+
+.p-top {
+    margin-top: 20px;
+}
+
+
+
+/* Services Page END
+==============================================*/
+
+
+
+/* Services Page Mobile -xs-
+==============================================*/
+
+/* Services Page Mobile -xs-   END
+==============================================*/
+
+
+/*==============================================================================================================================*/
+
+
+
+
+/* Portfolio Page
+==============================================*/
+.password-color {
+    color:#000000;
+}
+
+.tyler {
+    background-color: #009dea;
+
+}
+
+/* Portfolio Page END
+==============================================*/
+
+/* Portfolio Page Mobile -xs-
+==============================================*/
+
+/* Portfolio Page Mobile -xs-   END
+==============================================*/
+
+
+/*==============================================================================================================================*/
+
+
+
+/* About Page
+==============================================*/
+
+
+.team-member {
+    border: solid 2px #ffffff;
+}
+
+/* About Page END
+==============================================*/
+
+/* About Page Mobile -xs-
+==============================================*/
+
+
+
+/* About Page Mobile -xs-   END
+==============================================*/
+
+
+
+/*==============================================================================================================================*/
+
+
+
+/* Sales Page
+==============================================*/
+
+/* Sales Page END
+==============================================*/
+
+/* Sales Page Mobile -xs-
+==============================================*/
+
+/* Sales Page Mobile -xs-   END
+==============================================*/
+
+
+/*==============================================================================================================================*/
+
+.new {
+    background-color: #009dea;
+    height: 500px;
+    width: 500px;
+    margin: 10px;
+}
+
+.blah {
+    margin-top: 100px;
+}

@@ -1,0 +1,184 @@
+.team-hover {
+    width: 300px;
+    height: 300px;
+    background: red;
+    -webkit-transition: width 1s, height 1s, -webkit-transform 1s; /* Safari */
+    transition: width 2s, height 2s, transform 2s;
+}
+
+.team-hover:hover {
+    width: 500px;
+    height: 400px;
+    -webkit-transform: rotate(360deg); /* Safari */
+    transform: rotate(360deg);
+}
+
+
+.body {
+    height: 2000px;
+}
+
+
+.not-shown {
+    visibility: hidden;
+}
+
+
+/* Thunderbolt
+===================================================================*/
+.thunder-lg, .thunder-md, .thunder-sm, .thunder-xs {
+    width: 100px;
+    height: 76px;
+    -webkit-transition: width 2s, height 2s;
+    transition: width 2s, height 2s;
+}
+.thunder-lg:hover {
+    width: 1100px;
+    height: 844px;
+}
+
+.thunder-md:hover {
+    width: 930px;
+    height: 713px;
+}
+
+.thunder-sm:hover {
+    width: 710px;
+    height: 544px;
+}
+
+.thunder-xs:hover {
+    width: 300px;
+    height: 231px;
+}
+/* Thunderbolt END
+===================================================================*/
+
+.img-center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+/* iPad Horizontal
+===================================================================*/
+.ipad-hor-lg, .ipad-hor-md, .ipad-hor-sm, .ipad-hor-xs {
+    width: 100px;
+    height: 77px;
+    -webkit-transition: width 2s, height 2s;
+    transition: width 2s, height 2s;
+}
+.ipad-hor-lg:hover {
+    width: 1100px;
+    height: 848px;
+}
+
+.ipad-hor-md:hover {
+    width: 930px;
+    height: 717px;
+}
+
+.ipad-hor-sm:hover {
+    width: 710px;
+    height: 547px;
+}
+
+.ipad-hor-xs:hover {
+    width: 300px;
+    height: 231px;
+}
+/* iPad Horizontal END
+===================================================================*/
+
+
+
+/* iPad Portrait
+===================================================================*/
+.ipad-por-lg, .ipad-por-md, .ipad-por-sm, .ipad-por-xs {
+    width: 77px;
+    height: 100px;
+    -webkit-transition: width 2s, height 2s;
+    transition: width 2s, height 2s;
+}
+.ipad-por-lg:hover {
+    width: 848px;
+    height: 1100px;
+}
+
+.ipad-por-md:hover {
+    width: 717px;
+    height: 930px;
+}
+
+.ipad-por-sm:hover {
+    width: 547px;
+    height: 710px;
+}
+
+.ipad-por-xs:hover {
+    width: 231px;
+    height: 300px;
+}
+/* iPad Portrait END
+===================================================================*/
+
+
+
+/* iPhone
+===================================================================*/
+.iphone-home-lg, .iphone-home-md, .iphone-home-sm, .iphone-home-xs {
+    width: 50px;
+    height: 105px;
+    -webkit-transition: width 2s, height 2s;
+    transition: width 2s, height 2s;
+}
+.iphone-home-lg:hover {
+    width: 500px;
+    height: 1051px;
+}
+
+.iphone-home-md:hover {
+    width: 400px;
+    height: 841px;
+}
+
+.iphone-home-sm:hover {
+    width: 300px;
+    height: 631px;
+}
+
+.iphone-home-xs:hover {
+    width: 209px;
+    height: 440px;
+}
+/* iPhone END
+===================================================================*/
+
+
+.blah {
+    height: 600px;
+
+}
+
+/*.foo {
+    /!*
+    display: none;
+    *!/
+    height: 300px;
+    width: 300px;
+    -webkit-transition: width 2s ease, height 2s ease;
+    -moz-transition: width 2s ease, height 2s ease;
+    -ms-transition: width 2s ease, height 2s ease;
+    -o-transition: width 2s ease, height 2s ease;
+    transition: width 2s ease, height 2s ease;
+
+}
+
+@media screen and (max-width: 900px) {
+    .foo {
+        height: 200px;
+        width: 150px;
+    }
+}*/
+
+

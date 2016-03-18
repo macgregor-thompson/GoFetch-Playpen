@@ -1,0 +1,162 @@
+/* Global Style
+=======================================================================*/
+
+body {
+    background-color: rgba(0,0,0,0.1);
+/*
+    background: url('../img/ml/marjorylee-2.png') no-repeat center center fixed;
+*/
+}
+
+
+
+
+/* Custom Repeat Attributes ================================*/
+
+.img-center{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+/*=================================*/
+.top-space-25 {
+    margin-top: 25px;
+}
+.top-space-50 {
+    margin-top: 50px;
+}
+.top-space-75 {
+    margin-top: 75px;
+}
+.top-space-100 {
+    margin-top: 100px;
+}
+/*=================================*/
+.bottom-space-25 {
+    margin-bottom: 25px;
+}
+.bottom-space-50 {
+    margin-bottom: 50px;
+}
+.bottom-space-75 {
+    margin-bottom: 75px;
+}
+.bottom-space-100 {
+    margin-bottom: 100px;
+}
+/*=================================*/
+
+
+/* Custom Repeat Attributes END =============================*/
+
+
+
+.pattern{
+    background:rgba(0,0,0,.5) url('../img/pattern.png');
+}
+
+
+
+
+/* Global Settings END
+===================================================================================================================================*/
+
+
+
+/* Home Page
+==============================================================*/
+
+
+.section-1 {
+    background: url('../img/ml/marjorylee-1.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 1000px;
+}
+
+.section-2 {
+    background: url('../img/ml/marjorylee-2.png') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 1000px;
+}
+
+.section-3 {
+    background: url('../img/ml/marjorylee-3.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 1000px;
+}
+
+
+.section-4 {
+    background: url('../img/fripp-grass.JPG') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 1000px;
+}
+
+
+
+
+
+
+
+/* Home Page END
+=================================================================*/
+
+
+
+
+
+/* Home Page Mobile -xs-
+======================================================================*/
+
+.section-1-xs {
+    background: url('../img/ml/marjorylee-1-crop.png') no-repeat center fixed ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 500px;
+}
+
+.section-2-xs {
+
+    height: 500px;
+}
+
+.section-3-xs {
+    background: url('../img/ml/marjorylee-3.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 500px;
+}
+
+
+.section-4-xs {
+    background: url('../img/fripp-grass.JPG') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 500px;
+}
+
+
+/* Home Page Mobile -xs-  END
+===================================================================*/
+
+/*================================================================================================================================*/
+
+

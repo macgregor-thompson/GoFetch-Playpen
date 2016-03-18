@@ -1,0 +1,39 @@
+body {
+    background: url('../img/mom/cake.png') repeat;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.title {
+    color: #fff;
+    text-shadow:  0 5px 6px #333;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+.love {
+    color: #fff;
+    text-shadow:  0 2px 2px #333;
+}
+
+.mom-img {
+    display: block;
+    margin: 25px auto;
+    padding: 0 15px 15px 15px;
+    border-radius: 30px;
+
+}
+
+.mom-jumbo {
+    background: rgba(250, 8, 8, .75);
+    border-radius: 20px;
+    box-shadow: 1px 1px 23px 2px #333;
+    max-width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.hidden-div {
+    visibility: hidden;
+}
+
+

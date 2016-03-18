@@ -1,0 +1,482 @@
+
+/* Global Style
+===============================================*/
+
+body {
+    position: relative;
+    font-family:'Roboto', sans-serif;
+    color:#fff;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    text-shadow: 1px 2px 5px #000;
+}
+a {
+    text-shadow: 0 0 0;
+}
+
+a:focus{
+    outline:none;
+    outline-offset:inherit;
+}
+
+.section-style {
+    background-attachment: inherit;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    width: 100%;
+    background-size: cover;
+}
+
+
+/* Global Style END ====================*/
+
+
+/* Header
+===================================================== */
+
+.gofetch-header {
+    margin-top: 0;
+}
+.navbar-brand>img {
+    margin-top: -14px;
+}
+
+
+.pattern{
+    background:rgba(0,0,0,.5) url(../img/pattern.png);
+    padding-top:50px;
+}
+
+/* Header END ======================= */
+
+
+
+/* Social Buttons
+==========================================================*/
+
+.social-list {
+    margin-right: 25px;
+    list-style-type: none;
+}
+
+.static {
+    position: fixed;
+}
+
+.social-div {
+    right: 0;
+    top: 100px;
+    position: fixed;
+}
+
+.contact-icon span{
+    color: #fa0808;
+    font-size: 64px;
+    line-height: 39px;
+    display: inline-block;
+    background-color: #fff;
+    text-transform: uppercase;
+    padding: 0px 0px;
+    margin-top: 16px;
+    margin-left: 3px;
+
+}
+
+/* Social Buttons END =============================*/
+
+
+/* Next Section Button
+------------------------------------------ */
+.next-section{
+    text-align:center;
+}
+.next-section a{
+    cursor:pointer;
+    display:inline-block;
+    width:120px;
+    height:120px;
+
+    -webkit-border-radius:100%;
+    -moz-border-radius:100%;
+    -ms-border-radius:100%;
+    -o-border-radius:100%;
+    border-radius:100%;
+
+    background-color:rgba(0,0,0,.2);
+    box-shadow: 0 0 1px rgba(255,255,255,.2);
+    margin:70px;
+    padding-top:45px;
+    position:relative;
+}
+
+.next-section a span{
+    display:inline-block;
+    width:50px;
+    height:50px;
+    border:4px solid #fff;
+    border-left-color:transparent;
+    border-top-color:transparent;
+    position:absolute;
+    top:20px;
+    left:35px;
+
+    -webkit-transform:rotate(45deg);
+    -moz-transform:rotate(45deg);
+    -ms-transform:rotate(45deg);
+    -o-transform:rotate(45deg);
+    transform:rotate(45deg);
+
+    opacity:.7;
+
+    -webkit-transition:all .25s;
+    -moz-transition:all .25s;
+    -ms-transition:all .25s;
+    -o-transition:all .25s;
+    transition:all .25s;
+}
+.next-section a:hover span{
+    opacity:1;
+}
+/* Next Section Button END
+------------------------------------------ */
+
+
+
+/* 1st Section
+================================================ */
+
+#page-top {
+    background: url('../img/fripp1.JPG') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 700px;
+}
+
+.margin-cities {
+    margin-top: 150px;
+}
+
+.main-title {
+    text-transform: uppercase;
+    text-shadow: 1px 2px 5px #000;
+}
+
+.first-section {
+    background: no-repeat center center fixed;
+    height: 1000px;
+}
+
+.logo {
+height: 100px;
+margin-left: auto;
+margin-right: auto;
+display: block;
+margin-top: 100px;
+
+}
+
+img.logo.visible-xs.small-logo {
+height: 50px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.site-title{
+text-align:center;
+font-size:66px;
+font-family:'Pacifico';
+margin:0 0 50px 0;
+padding-bottom:50px;
+position:relative;
+}
+.site-title:before,
+.site-title:after{
+content:"";
+width:200px;
+height:20px;
+left:50%;
+margin-left:-100px;
+border-bottom:2px double red;
+position:absolute;
+}
+.site-title:before{
+bottom:0;
+}
+.site-title:after{
+bottom:2px;
+}
+#page-top .section-name span:before,
+#page-top .section-name span:after{
+content:none;
+}
+
+.section-title {
+text-align: center;
+color: red;
+    text-shadow: 1px 1px 2px #000;
+}
+
+
+
+.section-name{
+    font-weight:700;
+    text-align:center;
+    text-transform:uppercase;
+    margin:0;
+    color: #fa0808;
+
+}
+.section-name span{
+    display:inline-block;
+    position:relative;
+    padding-bottom:15px;
+}
+.section-name span:before,
+.section-name span:after{
+    content:"";
+    width:100%;
+    height:10px;
+    border-bottom:1px double #fff;
+    position:absolute;
+    left:0;
+}
+.section-name span:before{
+    bottom:0;
+}
+.section-name span:after{
+    bottom:2px;
+}
+
+div.vertical-line {
+    width: 3px;
+    background-color: #fff;
+    height: 100%;
+    float: left;
+    border: 2px ridge #fff ;
+    border-radius: 2px;
+}
+
+/*==== 1st Section END================ */
+
+
+/* 2nd Section
+========================================= */
+
+
+.second-section-bcg {
+/*
+    background: url('../img/marina.JPG') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+*/
+    background: no-repeat center center relative;
+
+}
+
+.section-text {
+    color: #fff;
+    text-shadow: 1px 2px 5px #000;
+}
+
+
+
+/*==== 2nd Section END ================ */
+
+
+/* 3rd Section
+================================================== */
+
+
+.third-section {
+    background: url('../img/sixteen-green.JPG') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+
+}
+
+.margin-top {
+    margin-top: 50px;
+}
+
+.third-text {
+    color: #fff;
+    text-shadow: 1px 2px 5px #000;
+
+}
+
+.team {
+    margin-top: -20px;
+    margin-bottom: 20px;
+    border: solid 2px #fff;
+
+}
+
+.team-small {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: solid 2px #fff;
+}
+.macgregor-small{
+    margin-bottom: 10px;
+}
+
+.team-table {
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/*==== 3rd Section END ================ */
+
+
+/* 4th Section
+========================================================== */
+
+
+.bottom-padding {
+    padding-bottom: 50px;
+}
+
+
+
+.btn-margin {
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+/*==== 4th Section END ================ */
+
+
+
+
+/* Footer
+================================================ */
+
+.gofetch-footer {
+    margin-bottom: 0;
+}
+
+
+/*==== Footer End ================ */
+
+
+
+
+
+
+/* Services
+================================================= */
+#services-page {
+    background: url('../img/fripp3.JPG') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 700px;
+}
+
+
+
+/* Services END ================================= */
+
+
+
+/* Our-Work
+================================================= */
+#our-work-page {
+    background: url('../img/marina.JPG') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 700px;
+}
+
+.carousel-margin {
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+}
+
+
+.customer-section {
+    background: url('../img/fripp-grass.JPG') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+
+}
+
+.space {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.white {
+    color: #fff;
+    text-shadow: 1px 2px 5px #000;
+}
+
+/* Our Work END ================================= */
+
+
+
+.gofetch-process {
+    padding-left: 100px;
+    padding-right:100px;
+}
+
+.process-step {
+    text-transform: uppercase;
+}
+
+.password {
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
