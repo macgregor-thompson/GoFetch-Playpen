@@ -1,0 +1,17 @@
+{
+  "generator-assemble": {
+    "projectName": "marjorylee",
+    "projectDesc": "Marjory Lee's website.",
+    "authorLogin": "mhthompson86",
+    "installPlugin": true,
+    "author": {
+      "name": "MacGregor Thompson",
+      "login": "assemble",
+      "email": "mthompson@gofetchweb.com"
+    },
+    "plugins": [
+      "assemble-contrib-permalinks",
+      "assemble-contrib-sitemap"
+    ]
+  }
+}
