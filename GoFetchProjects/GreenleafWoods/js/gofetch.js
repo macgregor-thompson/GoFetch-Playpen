@@ -8,6 +8,8 @@ GoFetch = function() {
     ret.init = function() {
         setYear();
         addFancybox();
+        
+        addToCarousel(complexGallery);
 
         $('.request-info').on('click', function() {
             var unit = $(this).data('id');
@@ -28,14 +30,45 @@ GoFetch = function() {
     
     function addFancybox() {
         $('.fancybox').fancybox();
-        $('.fancybox-media').fancybox({
+        $('.fancybox-slideshow').fancybox({
             openEffect: 'none',
             closeEffect: 'none',
+            arrows: true,
             helpers : {
                 media :{}
             }
         });
     }
+
+
+    function addToCarousel(images) {
+        for (var i = 0; i< images.length; i++) {
+            var markup = [
+                '<div class="item">',
+                '<img src="assets/img/complex_general/',
+                images[i],
+                '.JPG" alt="',
+                images[i],
+                '"><div class="carousel-caption"></div>'
+            ].join('');
+            $('.carousel-inner').append(markup);
+        }
+    }
+
+    var complexGallery = [
+
+        'DSC_3124',
+        'DSC_3126',
+        'DSC_3197',
+        'greenleaf_woods_marsh_view',
+        'portsmouth_bld6',
+        'portsmouth_commercial_space_bld_7',
+        'portsmouth_office_bld_1',
+        'seacoast_office_bld_6'
+    ];
+
+
+
 
     function cleanContactForm(){
         $('#form-title').empty();
