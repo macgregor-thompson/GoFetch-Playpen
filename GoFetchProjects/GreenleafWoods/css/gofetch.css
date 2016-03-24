@@ -1,7 +1,7 @@
 body{
     margin-top: 70px;
-    background-color: #faebd7;
-    line-height: inherit;
+    /*background-color: #faebd7;
+    line-height: inherit;*/
 }
 
 p {
@@ -10,9 +10,7 @@ p {
 h1 {
     font-size: 3em;
 }
-h2 {
-    font-size: 2.5em;
-}
+
 h3 {
     font-size: 2em;
 }
@@ -22,6 +20,10 @@ li {
 
 footer {
     margin-top: 30px;
+}
+
+#tour-page h2 {
+    font-size: 2.5em;
 }
 
 .jumbotron{
@@ -34,6 +36,10 @@ footer {
     color:#337BC7;
     font-weight: bold;
     text-shadow: 1px 1px 0 #333;
+}
+
+.jumbotron h2 {
+    font-size: 30px;
 }
 
 .jumbotron p{
@@ -464,10 +470,10 @@ td> a {
     padding: 0;
 }
 
-.navbar-default {
+/*.navbar-default {
     background-color: #fffff0;
     border-color: #cbcbbe;
-}
+}*/
 
 
 .carousel {
