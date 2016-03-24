@@ -9,7 +9,7 @@ GoFetch = function() {
         setYear();
         addFancybox();
         
-        addToCarousel(complexGallery);
+        //addToCarousel(complexGallery);
 
         $('.request-info').on('click', function() {
             var unit = $(this).data('id');

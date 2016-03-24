@@ -12,17 +12,29 @@ component: navbar
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="{{relative page.dest "dist/index.html"}}">
-<!--
-                <img src="{{assets}}/img/chimeST.png" alt="Chime for XMPP" height="50">
--->
-                Greenleaf Woods
+                <img src="{{assets}}/img/green2.png" alt="Greenleaf Woods">
             </a>
         </div>
         <div class="navbar-collapse collapse navbar-right">
             <ul class="nav navbar-nav" id="main-nav">
-                <li><a href="{{relative page.dest "dist/index.html"}}">Home</a></li>
-                <li><a href="{{relative page.dest "dist/tour.html"}}">Tour</a></li>
-                <li><a href="{{relative page.dest "dist/contact.html"}}">Contact Us!</a></li>
+                <li>
+                    <a href="{{relative page.dest "dist/index.html"}}">
+                        <i class="fa fa-home"></i>
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="{{relative page.dest "dist/tour.html"}}">
+                        <i class="fa fa-photo"></i>
+                        Tour
+                    </a>
+                </li>
+                <li>
+                    <a href="{{relative page.dest "dist/contact.html"}}">
+                        <i class="fa fa-envelope"></i>
+                        Contact Us
+                    </a>
+                </li>
             </ul>
         </div><!--/.nav-collapse -->
     </div>

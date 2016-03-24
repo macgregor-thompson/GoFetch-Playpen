@@ -87,23 +87,23 @@ module.exports = function(grunt) {
                     }
                 },
                 files: {
-                    '<%= config.dist %>/': ['<%= config.src %>/templates/pages/**/*.hbs']
+                    '<%= config.dist %>/': ['<%= config.src %>/templates/pages/{,*/}*.hbs']
                 }
-            }/*,
+            },
 
             tacticalPages: {
                 options: {
                     flatten: true,
                     assets: '<%= config.dist %>/assets',
                     layout: '<%= config.src %>/templates/layouts/default.hbs',
-                    data: '<%= config.src %>/data/!*.{json,yml}',
-                    partials: '<%= config.src %>/templates/partials/!**!/!*.hbs',
+                    data: '<%= config.src %>/data/*.{json,yml}',
+                    partials: '<%= config.src %>/templates/partials/**/*.hbs',
                     plugins: ['assemble-contrib-permalinks','assemble-contrib-sitemap']
                 },
                 files: {
-                    '<%= config.dist %>/': ['<%= config.src %>/templates/tacticalPages/!*.hbs']
+                    '<%= config.dist %>/': ['<%= config.src %>/templates/tacticalPages/{,*/}*.hbs']
                 }
-            }*/
+            }
         },
 
         copy: {
@@ -161,7 +161,7 @@ module.exports = function(grunt) {
 
                 ]
             },
-            files: ['<%= config.src %>/templates/{pages,lync,partials,releasenotes,tacticalPages}/*hbs'/*, '<%= config.dist %>*!//!*.hbs','<%= config.dist %>/releaseNotes*!//!*.hbs','<%= config.dist %>/lync*!//!*.hbs'*/]
+            files: ['<%= config.src %>/templates/{pages,lync,partials,releasenotes,tacticalPages}/*hbs']
         },
 
         // Before generating any new files,

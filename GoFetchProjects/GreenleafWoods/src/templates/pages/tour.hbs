@@ -6,8 +6,8 @@ keywords: rent office portsmouth nh, portsmouth nh, office for rent, downtown po
 
 <div class="container bottom-space-70">
     <div class="row">
-        <div class="col-sm-3">
-            <div class="instant-side-nav hidden-xs" id="side-nav" data-spy="affix">
+        <div class="col-md-2">
+            <div class="instant-side-nav hidden-xs hidden-sm" id="side-nav" data-spy="affix">
                 <ul class="nav hidden-xs">
                     <li class="active">
                         <a href="#info">Amenities</a>
@@ -37,45 +37,53 @@ keywords: rent office portsmouth nh, portsmouth nh, office for rent, downtown po
                 </div>
             </div>
         </div>
-        <div class="col-sm-9">
+        <div class="col-md-10">
 
             <section id="complex" class="tour-page-section">
                 <h1 class="page-header text-center">Greenleaf Woods</h1>
 
-                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+               <div id="greenleaf-woods-carousel" class="carousel slide" data-ride="carousel">
                     <!-- Indicators -->
                     <ol class="carousel-indicators">
-                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="4"></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="5"></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="6"></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="7"></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="8"></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="9"></li>
+                        <li data-target="#greenleaf-woods-carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#greenleaf-woods-carousel" data-slide-to="1"></li>
+                        <li data-target="#greenleaf-woods-carousel" data-slide-to="2"></li>
+                        <li data-target="#greenleaf-woods-carousel" data-slide-to="3"></li>
+                        <li data-target="#greenleaf-woods-carousel" data-slide-to="4"></li>
+                        <li data-target="#greenleaf-woods-carousel" data-slide-to="5"></li>
+
                     </ol>
 
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
-                            <img src="{{assets}}/img/complex_general/portsmouth_rt1_office_space.JPG" alt="">
-                            <div class="carousel-caption">
-                            </div>
+                            <img src="{{assets}}/img/complex_general/carousel/portsmouth_rt1_office_space.png" alt="carousel image">
+                        </div>
+                        <div class="item">
+                            <img src="{{assets}}/img/complex_general/carousel/DSC_3126.png" alt="carousel image">
+                        </div>
+                        <div class="item">
+                            <img src="{{assets}}/img/complex_general/carousel/seacoast_office_bld_6.png" alt="carousel image">
+                        </div>
+                        <div class="item">
+                            <img src="{{assets}}/img/complex_general/carousel/portsmouth_commercial_space_bld_7.png" alt="carousel image">
+                        </div>
+                        <div class="item">
+                            <img src="{{assets}}/img/complex_general/carousel/greenleaf_woods_marsh_view.png" alt="carousel image">
                         </div>
                     </div>
 
                     <!-- Controls -->
-                    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                    <a class="left carousel-control" href="#greenleaf-woods-carousel" role="button" data-slide="prev">
                         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
                     </a>
-                    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                    <a class="right carousel-control" href="#greenleaf-woods-carousel" role="button" data-slide="next">
                         <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
                     </a>
                 </div>
+
             </section>
 
             <section id="info" class="tour-page-section">
@@ -84,7 +92,7 @@ keywords: rent office portsmouth nh, portsmouth nh, office for rent, downtown po
                     Located just five minutes from downtown Portsmouth, Greenleaf Woods Office Park provides commercial office units with parking,
                     a great location, access to recreational and sports facilities, and a great alternative to downtown Portsmouth.
                 </p>
-                <img src="{{assets}}/img/panoramic.jpg" class="img img-responsive image-shadow bottom-space-30 top-space-30" alt="complex image">
+                <!--<img src="{{assets}}/img/panoramic.jpg" class="img img-responsive image-shadow bottom-space-30 top-space-30" alt="complex image">-->
                 <div class="value-text">
                     <p>
                         Tired of fighting with downtown Portsmouth prices, lack of parking, and high overhead?
@@ -92,7 +100,7 @@ keywords: rent office portsmouth nh, portsmouth nh, office for rent, downtown po
                     </p>
                     <ul>
                         <li>
-                            Parkingd
+                            Parking
                         </li>
                         <li>
                             Great Location
@@ -105,6 +113,10 @@ keywords: rent office portsmouth nh, portsmouth nh, office for rent, downtown po
                         </li>
                     </ul>
                 </div>
+                <a href="#" class="btn btn-default btn-lg instant-btn hidden-lg hidden-md" role="button" data-toggle="modal" data-target="#contact-form" id="contactUs">
+                    Contact Us
+                    <i class="glyphicon glyphicon-envelope"></i>
+                </a>
             </section>
 
             <section id="location" class="tour-page-section">
@@ -114,21 +126,16 @@ keywords: rent office portsmouth nh, portsmouth nh, office for rent, downtown po
                 </div>
             </section>
 
-            <!--<section id="contact" class="tour-page-section">
-                <a href="#" class="btn btn-default btn-lg instant-btn" role="button" data-toggle="modal" data-target="#contact-form" id="contactUs">
-                    Contact Us
-                    <i class="glyphicon glyphicon-envelope"></i>
-                </a>
-            </section>-->
-
             <section id="available" class="tour-page-section">
-                <h2>Available Now</h2>
+                <h1><span class="label label-danger">Available Now</span></h1>
                 <div class="available-div">
-                    <h3 id="7-202" class="tour-page-section">Building #7</h3>
-                    <div class="row bottom-space-10">
+                    <h2 id="7-202" class="tour-page-section">
+                        Building #7
+                    </h2>
+                    <div class="row bottom-space-30">
                         <div class="col-sm-6">
-                            <a class="fancybox" data-fancybox-group="building-7-unit-202" href="{{assets}}/img/water.jpg" title="Building #7 - Unit #202">
-                                <img class="img-responsive img-thumbnail video-shadow" src="{{assets}}/img/water.jpg" alt="unit image">
+                            <a class="fancybox" data-fancybox-group="bld_7_202" href="{{assets}}/img/bld_7_202/seacoast_office_rent.png" title="Building #7 - Unit #202">
+                                <img class="img-responsive img-thumbnail video-shadow" src="{{assets}}/img/bld_7_202/seacoast_office_rent.png" alt="unit image">
                             </a>
                         </div>
                         <div class="col-sm-6">
@@ -139,20 +146,76 @@ keywords: rent office portsmouth nh, portsmouth nh, office for rent, downtown po
                                 Located on the 2<sup>nd</sup> floor of building 7, this single office provides a 10x12 space with 2 windows,
                                 gigabit ethernet, all utilities, and a great space minutes from downtown.
                             </p>
-                            <a href="#" class="btn btn-lg btn-default instant-btn request-info"  data-id="Building #7 - Unit #202" role="button" data-toggle="modal" data-target="#contact-form">
+                            <a href="#" class="btn btn-lg btn-default request-btn request-info"  data-id="Building #7 - Unit #202" role="button" data-toggle="modal" data-target="#contact-form">
                                 Request More Info
                             </a>
                         </div>
                     </div>
+                    <div class="row no-gutter bottom-space-10">
+                        <div class="col-xs-2">
+                            <a class="fancybox" data-fancybox-group="bld_7_202" href="{{assets}}/img/bld_7_202/greenleaf_office_portsmouth.png" title="Building #7 - Unit #202">
+                                <img class="img-responsive image-shadow img-thumbnail" src="{{assets}}/img/bld_7_202/thumbs/greenleaf_office_portsmouth.png" alt="unit image">
+                            </a>
+                        </div>
+                        <div class="col-xs-2">
+                            <a class="fancybox" data-fancybox-group="bld_7_202" href="{{assets}}/img/bld_7_202/nh_office_for_rent.png" title="Building #7 - Unit #202">
+                                <img class="img-responsive image-shadow img-thumbnail" src="{{assets}}/img/bld_7_202/thumbs/nh_office_for_rent.png" alt="unit image">
+                            </a>
+                        </div>
+                        <div class="col-xs-2">
+                            <a class="fancybox" data-fancybox-group="bld_7_202" href="{{assets}}/img/bld_7_202/portsmouth_office_space.png" title="Building #7 - Unit #202">
+                                <img class="img-responsive image-shadow img-thumbnail" src="{{assets}}/img/bld_7_202/thumbs/portsmouth_office_space.png" alt="unit image">
+                            </a>
+                        </div>
+                        <div class="col-xs-2">
+                            <a class="fancybox" data-fancybox-group="bld_7_202" href="{{assets}}/img/bld_7_202/nh_office_rental.png" title="Building #7 - Unit #202">
+                                <img class="img-responsive image-shadow img-thumbnail" src="{{assets}}/img/bld_7_202/thumbs/nh_office_rental.png" alt="unit image">
+                            </a>
+                        </div>
+                        <div class="col-xs-2">
+                            <a class="fancybox" data-fancybox-group="bld_7_202" href="{{assets}}/img/bld_7_202/portsmouth_nh_seacoast_entrance.png" title="Seacoast Sports Club">
+                                <img class="img-responsive image-shadow img-thumbnail" src="{{assets}}/img/bld_7_202/thumbs/portsmouth_nh_seacoast_entrance.png" alt="unit image">
+                            </a>
+                        </div>
+                        <div class="col-xs-2">
+                            <a class="fancybox" data-fancybox-group="bld_7_202" href="{{assets}}/img/bld_7_202/portsmouth_nh_office_space.png" title="Building #7">
+                                <img class="img-responsive image-shadow img-thumbnail" src="{{assets}}/img/bld_7_202/thumbs/portsmouth_nh_office_space.png" alt="unit image">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row no-gutter bottom-space-10">
+                        <div class="col-xs-3">
+                            <a class="fancybox" data-fancybox-group="bld_7_202" href="{{assets}}/img/bld_7_202/nh_office_rent.png" title="Building #7 - Unit #202">
+                                <img class="img-responsive image-shadow img-thumbnail" src="{{assets}}/img/bld_7_202/thumbs/nh_office_rent.png" alt="unit image">
+                            </a>
+                        </div>
+                        <div class="col-xs-3">
+                            <a class="fancybox" data-fancybox-group="bld_7_202" href="{{assets}}/img/bld_7_202/nh_portsmouth_rental.png" title="Building #7 - Unit #202">
+                                <img class="img-responsive image-shadow img-thumbnail" src="{{assets}}/img/bld_7_202/thumbs/nh_portsmouth_rental.png" alt="unit image">
+                            </a>
+                        </div>
+                        <div class="col-xs-3">
+                            <a class="fancybox" data-fancybox-group="bld_7_202" href="{{assets}}/img/bld_7_202/secure_access.png" title="Building #7 - Unit #202">
+                                <img class="img-responsive image-shadow img-thumbnail" src="{{assets}}/img/bld_7_202/thumbs/secure_access.png" alt="unit image">
+                            </a>
+                        </div>
+                        <div class="col-xs-3">
+                            <a class="fancybox" data-fancybox-group="bld_7_202" href="{{assets}}/img/bld_7_202/high_speed_network.png" title="Building #7 - Unit #202">
+                                <img class="img-responsive image-shadow img-thumbnail" src="{{assets}}/img/bld_7_202/thumbs/high_speed_network.png" alt="unit image">
+                            </a>
+                        </div>
+                    </div>
+
                 </div>
                 <div class="available-bottom">
-                    <h3 id="3-101" class="tour-page-section">Building #3</h3>
-                    <div class="row bottom-space-10">
+                    <h2 id="3-101" class="tour-page-section">
+                        Building #3
+                    </h2>
+                    <div class="row bottom-space-30">
                         <div class="col-sm-6">
-                            <a class="fancybox" data-fancybox-group="building-3-unit-101" href="{{assets}}/img/water.jpg" title="Building #3 - Unit #101">
-                                <img class="img-responsive img-thumbnail video-shadow" src="{{assets}}/img/water.jpg" alt="unit image">
+                            <a class="fancybox" data-fancybox-group="bld_3_101" href="{{assets}}/img/bld_3_101/portsmouth_office_nh_2.png" title="Building #3 - Unit #101">
+                                <img class="img-responsive img-thumbnail video-shadow" src="{{assets}}/img/bld_3_101/portsmouth_office_nh_2.png" alt="unit image">
                             </a>
-
                         </div>
                         <div class="col-sm-6">
                             <h3>
@@ -163,8 +226,84 @@ keywords: rent office portsmouth nh, portsmouth nh, office for rent, downtown po
                                 This 3 office unit includes a small common area, gigabit networking, numerous coax drops, granite countertops in
                                 the bathroom and kitchenette, French doors, and great lighting.
                             </p>
-                            <a href="#" class="btn btn-lg btn-default instant-btn request-info" data-id="Building #3 - Unit #101" role="button" data-toggle="modal" data-target="#contact-form">
+                            <a href="#" class="btn btn-lg btn-default request-btn request-info" data-id="Building #3 - Unit #101" role="button" data-toggle="modal" data-target="#contact-form">
                                 Request More Info
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row no-gutter bottom-space-10">
+                        <div class="col-xs-2">
+                            <a class="fancybox" data-fancybox-group="bld_3_101" href="{{assets}}/img/bld_3_101/greenleaf_bld3_back.png" title="Building #3 - Unit #101">
+                                <img class="img-responsive image-shadow img-thumbnail" src="{{assets}}/img/bld_3_101/thumbs/greenleaf_bld3_back.png" alt="unit image">
+                            </a>
+                        </div>
+                        <div class="col-xs-2">
+                            <a class="fancybox" data-fancybox-group="bld_3_101" href="{{assets}}/img/bld_3_101/greenleaf_bld3_back2.png" title="Building #3 - Unit #101">
+                                <img class="img-responsive image-shadow img-thumbnail" src="{{assets}}/img/bld_3_101/thumbs/greenleaf_bld3_back2.png" alt="unit image">
+                            </a>
+                        </div>
+                        <div class="col-xs-2">
+                            <a class="fancybox" data-fancybox-group="bld_3_101" href="{{assets}}/img/bld_3_101/portsmouth_office_space_hall.png" title="Building #3 - Unit #101">
+                                <img class="img-responsive image-shadow img-thumbnail" src="{{assets}}/img/bld_3_101/thumbs/portsmouth_office_space_hall.png" alt="unit image">
+                            </a>
+                        </div>
+                        <div class="col-xs-2">
+                            <a class="fancybox" data-fancybox-group="bld_3_101" href="{{assets}}/img/bld_3_101/portsmouth_building_3.png" title="Building #3 - Unit #101">
+                                <img class="img-responsive image-shadow img-thumbnail" src="{{assets}}/img/bld_3_101/thumbs/portsmouth_building_3.png" alt="unit image">
+                            </a>
+                        </div>
+                        <div class="col-xs-2">
+                            <a class="fancybox" data-fancybox-group="bld_3_101" href="{{assets}}/img/bld_3_101/portsmouth_commercial_office.png" title="Building #3 - Unit #101">
+                                <img class="img-responsive image-shadow img-thumbnail" src="{{assets}}/img/bld_3_101/thumbs/portsmouth_commercial_office.png" alt="unit image">
+                            </a>
+                        </div>
+                        <div class="col-xs-2">
+                            <a class="fancybox" data-fancybox-group="bld_3_101" href="{{assets}}/img/bld_3_101/portsmouth_nh_office_space.png" title="Building #3 - Unit #101">
+                                <img class="img-responsive image-shadow img-thumbnail" src="{{assets}}/img/bld_3_101/thumbs/portsmouth_nh_office_space.png" alt="unit image">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row no-gutter bottom-space-10">
+                        <div class="col-xs-3">
+                            <a class="fancybox" data-fancybox-group="bld_3_101" href="{{assets}}/img/bld_3_101/building_3_front.png" title="Building #3 - Unit #101">
+                                <img class="img-responsive image-shadow img-thumbnail" src="{{assets}}/img/bld_3_101/thumbs/building_3_front.png" alt="unit image">
+                            </a>
+                        </div>
+                        <div class="col-xs-3">
+                            <a class="fancybox" data-fancybox-group="bld_3_101" href="{{assets}}/img/bld_3_101/portsmouth_commercial_unit.png" title="Building #3 - Unit #101">
+                                <img class="img-responsive image-shadow img-thumbnail" src="{{assets}}/img/bld_3_101/thumbs/portsmouth_commercial_unit.png" alt="unit image">
+                            </a>
+                        </div>
+                        <div class="col-xs-3">
+                            <a class="fancybox" data-fancybox-group="bld_3_101" href="{{assets}}/img/bld_3_101/portsmouth_nh_commercial_space.png" title="Building #3 - Unit #101">
+                                <img class="img-responsive image-shadow img-thumbnail" src="{{assets}}/img/bld_3_101/thumbs/portsmouth_nh_commercial_space.png" alt="unit image">
+                            </a>
+                        </div>
+                        <div class="col-xs-3">
+                            <a class="fancybox" data-fancybox-group="bld_3_101" href="{{assets}}/img/bld_3_101/portsmouth_2_office.png" title="Building #3 - Unit #101">
+                                <img class="img-responsive image-shadow img-thumbnail" src="{{assets}}/img/bld_3_101/thumbs/portsmouth_2_office.png" alt="unit image">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row no-gutter bottom-space-10">
+                        <div class="col-xs-3">
+                            <a class="fancybox" data-fancybox-group="bld_3_101" href="{{assets}}/img/bld_3_101/portsmouth_nh_office_rent.png" title="Building #3 - Unit #101">
+                                <img class="img-responsive image-shadow img-thumbnail" src="{{assets}}/img/bld_3_101/thumbs/portsmouth_nh_office_rent.png" alt="unit image">
+                            </a>
+                        </div>
+                        <div class="col-xs-3">
+                            <a class="fancybox" data-fancybox-group="bld_3_101" href="{{assets}}/img/bld_3_101/portsmouth_office.png" title="Building #3 - Unit #101">
+                                <img class="img-responsive image-shadow img-thumbnail" src="{{assets}}/img/bld_3_101/thumbs/portsmouth_office.png" alt="unit image">
+                            </a>
+                        </div>
+                        <div class="col-xs-3">
+                            <a class="fancybox" data-fancybox-group="bld_3_101" href="{{assets}}/img/bld_3_101/greenleaf_woods_portsmouth.png" title="Building #3 - Unit #101">
+                                <img class="img-responsive image-shadow img-thumbnail" src="{{assets}}/img/bld_3_101/thumbs/greenleaf_woods_portsmouth.png" alt="unit image">
+                            </a>
+                        </div>
+                        <div class="col-xs-3">
+                            <a class="fancybox" data-fancybox-group="bld_3_101" href="{{assets}}/img/bld_3_101/office_portsmouth_nh.png" title="Building #3 - Unit #101">
+                                <img class="img-responsive image-shadow img-thumbnail" src="{{assets}}/img/bld_3_101/thumbs/office_portsmouth_nh.png" alt="unit image">
                             </a>
                         </div>
                     </div>
@@ -174,8 +313,7 @@ keywords: rent office portsmouth nh, portsmouth nh, office for rent, downtown po
     </div>
 </div>
 
-{{> building-7-unit-202 }}
-{{> building-3-unit-101 }}
+
 
 <script>
     $(function(){
