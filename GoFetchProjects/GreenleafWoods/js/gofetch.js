@@ -3,26 +3,16 @@ var GoFetch = GoFetch || {};
 GoFetch = function() {
 
     var ret = {};
-    var form = $('#Contact_Form').parsley();
+    var form = $('#ajax-contact');
+    var formMessages = $('#form-messages');
 
     ret.init = function() {
         setYear();
         addFancybox();
-        
-        //addToCarousel(complexGallery);
-
-        $('.request-info').on('click', function() {
-            var unit = $(this).data('id');
-            $('#interest').val(unit);
-            $('#form-title').text('Contact us to know more about ' + unit + '.');
-        });
-
-        $('#submitForm').on('click', function(){ formSubmit(); });
+        listeners();
 
     };
-    
-    //////////////////////////////////////////////////
-    
+
     function setYear() {
       var d = new Date();
         $('#year').html(d.getFullYear());
@@ -40,52 +30,81 @@ GoFetch = function() {
         });
     }
 
-
-    function addToCarousel(images) {
-        for (var i = 0; i< images.length; i++) {
-            var markup = [
-                '<div class="item">',
-                '<img src="assets/img/complex_general/',
-                images[i],
-                '.JPG" alt="',
-                images[i],
-                '"><div class="carousel-caption"></div>'
-            ].join('');
-            $('.carousel-inner').append(markup);
-        }
+    function clearForm() {
+        $('#interest').val('general');
+        $('#form-title').text('Contact Us for More Information');
+        $('#name').val('');
+        $('#email').val('');
+        $('#phone').val('');
+        $('#message').val('');
     }
 
-    var complexGallery = [
-
-        'DSC_3124',
-        'DSC_3126',
-        'DSC_3197',
-        'greenleaf_woods_marsh_view',
-        'portsmouth_bld6',
-        'portsmouth_commercial_space_bld_7',
-        'portsmouth_office_bld_1',
-        'seacoast_office_bld_6'
-    ];
-
-
-
-
-    function cleanContactForm(){
-        $('#form-title').empty();
-        $('#lead_source').val('');
+    function clearFormMessages() {
+        $(formMessages).removeClass('success error');
+        $(formMessages).text('');
     }
 
-    function formSubmit(){
-        form.validate();
-        if(form.isValid()) {
-            $('#Contact_Form').submit();
-            cleanContactForm();
-            ga('send', 'event', 'contact form', 'submit');
-        }
+    function dismissContactModal() {
+        $('#contact-form').modal('hide');
     }
+
+    function postForm() {
+        var formData = $(form).serialize();
+        console.log('Serialized:' , formData);
+
+        $.post($(form).attr('action'), formData )
+            .done(function(response) {
+                $(formMessages).removeClass('error');
+                $(formMessages).addClass('success');
+                $(formMessages).text(response);
+                clearForm();
+            })
+            .fail(function(data) {
+                $(formMessages).removeClass('success');
+                $(formMessages).addClass('error');
+                if (data.responseText !== '') {
+                    $(formMessages).text(data.responseText);
+                } else {
+                    $(formMessages).text('Oops! An error occurred and your message could not be sent.');
+                }
+            });
+    }
+
+
+    function listeners() {
+
+        //grab and then set the interest and form title
+        $('.request-btn').on('click', function() {
+            var interest = $(this).data('id');
+            $('#interest').val(interest);
+            $('#form-title').text('Contact Us for More Information about ' + interest);
+        });
+
+        //clear the form title and interest when the modal is dismissed
+        $('#contact-form').on('hide.bs.modal', function() {
+            clearForm();
+            clearFormMessages()
+        });
+
+        //submit the contact form
+        $(form).submit(function(e) {
+            e.preventDefault();
+            postForm();
+        });
+
+        //submit the form on the enter key
+        $(document).on('keypress', '#submitForm', function(e) {
+            if (e.keyCode === 13) {
+                e.preventDefault();
+                postForm();
+            }
+        });
+    }
+
 
     return ret;
 }();
+
 
 $(function() {
     GoFetch.init();
