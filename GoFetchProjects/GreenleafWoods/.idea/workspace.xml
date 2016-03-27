@@ -1,18 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d37c4208-a4c0-4717-8602-9626001be72e" name="Default" comment="foo">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foo.php" />
+    <list default="true" id="d37c4208-a4c0-4717-8602-9626001be72e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/gofetch.css" afterPath="$PROJECT_DIR$/css/gofetch.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/gofetch.js" afterPath="$PROJECT_DIR$/js/gofetch.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mailer.php" afterPath="$PROJECT_DIR$/mailer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/data/site.yml" afterPath="$PROJECT_DIR$/src/data/site.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/templates/pages/contact.hbs" afterPath="$PROJECT_DIR$/src/templates/pages/contact.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/templates/pages/tour.hbs" afterPath="$PROJECT_DIR$/src/templates/pages/tour.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/templates/partials/contact-form.hbs" afterPath="$PROJECT_DIR$/src/templates/partials/contact-form.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/templates/partials/customer-quote.hbs" afterPath="$PROJECT_DIR$/src/templates/partials/customer-quote.hbs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/templates/partials/footer.hbs" afterPath="$PROJECT_DIR$/src/templates/partials/footer.hbs" />
     </list>
     <ignored path="GreenleafWoods.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -164,7 +154,7 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP_5.6.10_MAMP" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="158" />
+    <option name="x" value="165" />
     <option name="y" value="55" />
     <option name="width" value="2127" />
     <option name="height" value="1266" />
@@ -462,31 +452,39 @@
       <workItem from="1458877738260" duration="11000" />
       <workItem from="1458877751465" duration="15451000" />
       <workItem from="1458961104840" duration="10124000" />
-      <workItem from="1459087029681" duration="1264000" />
+      <workItem from="1459087029681" duration="1300000" />
     </task>
+    <task id="LOCAL-00001" summary="bar">
+      <created>1459088319257</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1459088319257</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26850000" />
+    <option name="totallyTimeSpent" value="26886000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="158" y="55" width="2127" height="1266" extended-state="0" />
+    <frame x="165" y="55" width="2127" height="1266" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18033573" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24041812" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18033573" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -503,7 +501,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="foo" />
-    <option name="LAST_COMMIT_MESSAGE" value="foo" />
+    <MESSAGE value="bar" />
+    <option name="LAST_COMMIT_MESSAGE" value="bar" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -675,6 +674,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="563">
           <caret line="94" column="96" selection-start-line="94" selection-start-column="96" selection-end-line="94" selection-end-column="96" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -733,6 +733,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -740,6 +741,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
           <caret line="31" column="3" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -779,6 +781,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="105" column="24" selection-start-line="102" selection-start-column="20" selection-end-line="105" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
