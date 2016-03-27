@@ -30,42 +30,32 @@ GoFetch = function() {
         });
     }
 
+    //clear form and the form messages div below form
     function clearForm() {
+        console.log('Clearing Form...');
         $('#interest').val('general');
         $('#form-title').text('Contact Us for More Information');
-        $('#name').val('');
-        $('#email').val('');
-        $('#phone').val('');
-        $('#message').val('');
-    }
-
-    function clearFormMessages() {
-        $(formMessages).removeClass('success error');
-        $(formMessages).text('');
-    }
-
-    function dismissContactModal() {
-        $('#contact-form').modal('hide');
+        document.getElementById('ajax-contact').reset();
+        formMessages.removeClass('success error').text('');
+        console.log('form has been cleared');
     }
 
     function postForm() {
         var formData = $(form).serialize();
-        console.log('Serialized:' , formData);
 
-        $.post($(form).attr('action'), formData )
+        $.post(form.attr('action'), formData )
             .done(function(response) {
-                $(formMessages).removeClass('error');
-                $(formMessages).addClass('success');
-                $(formMessages).text(response);
-                clearForm();
+                formMessages.removeClass('error');
+                formMessages.addClass('success');
+                formMessages.text(response);
             })
             .fail(function(data) {
-                $(formMessages).removeClass('success');
-                $(formMessages).addClass('error');
+                formMessages.removeClass('success');
+                formMessages.addClass('error');
                 if (data.responseText !== '') {
-                    $(formMessages).text(data.responseText);
+                    formMessages.text(data.responseText);
                 } else {
-                    $(formMessages).text('Oops! An error occurred and your message could not be sent.');
+                    formMessages.text('Oops! An error occurred and your message could not be sent.');
                 }
             });
     }
@@ -83,7 +73,6 @@ GoFetch = function() {
         //clear the form title and interest when the modal is dismissed
         $('#contact-form').on('hide.bs.modal', function() {
             clearForm();
-            clearFormMessages()
         });
 
         //submit the contact form
@@ -91,16 +80,8 @@ GoFetch = function() {
             e.preventDefault();
             postForm();
         });
-
-        //submit the form on the enter key
-        $(document).on('keypress', '#submitForm', function(e) {
-            if (e.keyCode === 13) {
-                e.preventDefault();
-                postForm();
-            }
-        });
+        
     }
-
 
     return ret;
 }();
