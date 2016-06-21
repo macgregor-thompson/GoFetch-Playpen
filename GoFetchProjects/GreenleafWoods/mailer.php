@@ -22,7 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     // Set the recipient email address.
     // FIXME: Update this to your desired email address.
-    $recipient = "pholdings@gopeachtree.com";
+    $recipient = "pholdings@gopeachtree.com, mthompson@gofetchweb.com";
 
     // Set the email subject.
     $subject = "New Interest in Greenleaf Woods from $name";

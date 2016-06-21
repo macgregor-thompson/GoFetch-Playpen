@@ -10,8 +10,13 @@ GoFetch = function() {
         setYear();
         addFancybox();
         listeners();
-
+        valueboxHeight()
     };
+
+    function valueboxHeight() {
+        var boxes = $('.valuebox');
+        boxes.height(Math.max(boxes.height()));
+    }
 
     function setYear() {
       var d = new Date();
