@@ -18,7 +18,7 @@ btn2-id: seeMore
 <div id="chime-value">
     <div class="container">
         <div class="row">
-            <div class="col-md-3 valuebox">
+            <div class="col-md-3 valuebox borderbox">
                 <div class="value-header">
                     Location
                 </div>
@@ -26,7 +26,7 @@ btn2-id: seeMore
                     Located 5 minutes from downtown Portsmouth, 5 minutes from I-95, and within 1 mile of great restaurants, shopping, and commercial services.
                 </div>
             </div>
-            <div class="col-md-3 valuebox">
+            <div class="col-md-3 valuebox borderbox">
                 <div class="value-header">
                     Parking
                 </div>
@@ -35,7 +35,7 @@ btn2-id: seeMore
                     Greenleaf Woods has plenty of parking and quick access to Route 1, downtown, and I-95.
                 </div>
             </div>
-            <div class="col-md-3 valuebox">
+            <div class="col-md-3 valuebox borderbox">
                 <div class="value-header">
                     Convenience
                 </div>
@@ -62,5 +62,6 @@ btn2-id: seeMore
     $(function(){
         var page = $('#main-nav').children();
         $(page[0]).addClass('active');
+        $('body').addClass('homepage');
     });
 </script>

@@ -173,15 +173,17 @@ footer {
     margin: 15px 0;
 }
 .value-header{
-    font-size:2em;
+    font-size: 1.7em;
     text-transform:uppercase;
 }
 
 .value-text{
     margin-top:15px;
 }
-.borderbox {
-    border-right: 1px solid #fff;
+@media (min-width: 992px) {
+    .borderbox {
+        border-right: 1px solid #fff;
+    }
 }
 
 #chime-value{
