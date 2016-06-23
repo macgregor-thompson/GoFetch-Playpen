@@ -2,7 +2,7 @@
   "name": "greenleafwoods",
   "version": "0.1.0",
   "dependencies": {
-    "bootstrap": "~3.2.0"
+    "bootstrap": "~3.3.6"
   },
   "private": true
 }
