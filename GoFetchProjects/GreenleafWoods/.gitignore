@@ -1,4 +1,4 @@
-dist/*
+dist
 lib-cov
 *.seed
 *.log
@@ -14,6 +14,6 @@ logs
 results
 
 npm-debug.log
-bower_components/*
-.idea/*
-node_modules/*
+bower_components
+.idea
+node_modules
